@@ -9,8 +9,17 @@ import TeamSection from "./scenes/TeamSection";
 import JoinSection from "./scenes/JoinSection";
 import FooterSection from "./scenes/FooterSection";
 import FAQSection from "./scenes/FAQSection";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      offset: 100,
+    });
+  }, []);
   return (
     <div className="App">
       <Nav />
