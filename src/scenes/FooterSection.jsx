@@ -50,12 +50,9 @@ const FooterSection = () => {
         <hr data-aos="fade-up" data-aos-offset="0" />
         <div className="copy-section">
           {/*copyright*/}
-          <p data-aos-offset="-300" data-aos="zoom-in-down">
-            &copy; 2024 Collat Finance. All Rights Reserved
-          </p>
+          <p>&copy; 2024 Collat Finance. All Rights Reserved</p>
           <div className="icons">
             <a
-              data-aos-offset="-300"
               data-aos="zoom-in-down"
               target="__blank"
               href="https://twitter.com/CollatFinance"
@@ -64,7 +61,6 @@ const FooterSection = () => {
               <FaTwitter />
             </a>
             <a
-              data-aos-offset="-300"
               data-aos="zoom-in-down"
               target="__blank"
               href="https://t.me/collatfinance"
@@ -73,7 +69,6 @@ const FooterSection = () => {
               <BiLogoTelegram />
             </a>
             <a
-              data-aos-offset="-300"
               data-aos="zoom-in-down"
               target="__blank"
               href="https://discord.gg/QrtvFgGn7r"
@@ -82,7 +77,6 @@ const FooterSection = () => {
               <FaDiscord />
             </a>
             <a
-              data-aos-offset="-300"
               data-aos="zoom-in-down"
               target="__blank"
               href="https://discord.gg/QrtvFgGn7r"
