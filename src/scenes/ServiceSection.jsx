@@ -6,6 +6,7 @@ import hand from "../assets/images/hand_icon.png";
 import coins from "../assets/images/coins.png";
 import HeadingPill from "../components/HeadingPill";
 import ellipse from "../assets/images/Ellipse.svg";
+import { device } from "../breakpoint";
 
 const ServiceSection = () => {
   return (
@@ -71,6 +72,11 @@ const Services = styled.div`
       text-align: left;
       flex-wrap: wrap;
       align-items: center;
+    }
+  }
+  @media screen and (${device.md}) {
+    .ellipse {
+      display: none;
     }
   }
 `;
