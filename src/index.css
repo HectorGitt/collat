@@ -7,14 +7,13 @@ body {
   background: #1f0047;
   transition: all 0.5s ease-in-out;
   color: white;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
   width: 100vw;
 }
-html {
-  scroll-behavior: smooth;
-  width: 100%;
+html,
+body {
+  max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 li {
   cursor: pointer;
