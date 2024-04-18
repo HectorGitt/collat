@@ -22,7 +22,13 @@ h2 {
   margin: 2rem 0;
   max-width: 42rem;
 }
-h2 span {
+@media screen and (max-width: 900px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+h2 span,
+.hero-heading span {
   color: #00ffa7;
   background-image: linear-gradient(
     -225deg,

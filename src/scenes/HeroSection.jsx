@@ -5,14 +5,15 @@ import layer1 from "../assets/images/Layer_1.png";
 import layer2 from "../assets/images/Layer_2.png";
 import layer3 from "../assets/images/Layer_3.png";
 import { FaTelegram } from "react-icons/fa6";
+import { device } from "../breakpoint";
 
 const HeroSection = () => {
   return (
     <Hero>
       <div>
-        <h2 data-aos="fade-up">
+        <h1 className="hero-heading" data-aos="fade-up">
           Revolutionize your <span>financial flexibility</span>
-        </h2>
+        </h1>
         <p data-aos="fade-up" data-aos-offset="-100" data-aos-delay="500">
           Collat Finance is an on-chain lending platform backed by tokenzied RWA
           collateral built on the Solana Blockchain.
@@ -20,14 +21,14 @@ const HeroSection = () => {
         <div className="hero-actions">
           <MainButton
             text="Learn More"
-            to="/buy"
+            to="https://docs.collat.finance/"
             dataAos="fade-right"
             dataAosDelay="1000"
             dataAosOffset="0"
           />
           <MainButton
             text="Join Telegram"
-            to="/discord"
+            to="https://t.me/collatfinance"
             secondary
             icon={<FaTelegram size={"1.2rem"} />}
             dataAos="fade-left"
@@ -59,7 +60,7 @@ const Hero = styled.div`
     max-width: 1000px;
     text-align: center;
     height: 100%;
-    h2 {
+    h1 {
       font-size: 4rem;
       max-width: 30rem;
       animation: float 2s linear infinite;
@@ -88,6 +89,7 @@ const Hero = styled.div`
     .hero-actions {
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
       gap: 1rem;
     }
   }
@@ -123,6 +125,11 @@ const Hero = styled.div`
     right: 10%;
     z-index: -3;
     animation: floatimg 5s linear infinite;
+  }
+  @media screen and (${device.md}) {
+    h1 {
+      font-size: 2.5rem;
+    }
   }
 `;
 

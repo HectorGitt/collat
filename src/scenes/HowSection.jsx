@@ -6,6 +6,7 @@ import { FaClipboardList } from "react-icons/fa";
 import { BsClipboard2DataFill } from "react-icons/bs";
 import { FaDatabase } from "react-icons/fa";
 import { FaMoneyCheck } from "react-icons/fa6";
+import { device } from "../breakpoint";
 
 const HowSection = () => {
   return (
@@ -49,7 +50,6 @@ const How = styled.div`
   display: flex;
   justify-content: center;
   & > div {
-    padding: 0 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,9 +63,13 @@ const How = styled.div`
       display: flex;
       gap: 2rem;
       justify-content: center;
-      flex-wrap: wrap;
       margin: 2rem 0;
       text-align: left;
+    }
+  }
+  @media screen and (${device.md}) {
+    .cards {
+      flex-direction: column;
     }
   }
 `;

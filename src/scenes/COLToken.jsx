@@ -4,6 +4,7 @@ import FlexSection from "../components/FlexSection";
 import coins from "../assets/images/coins.png";
 import Hanger from "../components/Hanger";
 import HeadingPill from "../components/HeadingPill";
+import { device } from "../breakpoint";
 
 const COLToken = () => {
   return (
@@ -71,6 +72,9 @@ const COLCont = styled.div`
   h1 {
     align-self: self-start;
     margin-left: 5%;
+    @media screen and (${device.md}) {
+      align-self: center;
+    }
   }
   .token-details {
     list-style: none;
@@ -96,6 +100,28 @@ const COLCont = styled.div`
     width: 80%;
     align-self: center;
     flex-wrap: wrap;
+  }
+  @media screen and (${device.md}) {
+    .token-details {
+      flex-direction: column;
+      align-items: center;
+      width: fit-content;
+      padding: 2rem;
+      text-align: center;
+
+      li {
+        margin: 1rem 0;
+      }
+    }
+    .hanger-list {
+      flex-direction: column;
+      align-items: center;
+
+      & > div {
+        align-items: center;
+        text-align: center;
+      }
+    }
   }
 `;
 

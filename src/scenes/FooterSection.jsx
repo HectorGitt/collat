@@ -58,7 +58,7 @@ const FooterSection = () => {
               data-aos-offset="-100"
               data-aos="zoom-in-down"
               target="__blank"
-              href="https://twitter.com/replyada"
+              href="https://twitter.com/CollatFinance"
             >
               {" "}
               <FaTwitter />
@@ -67,7 +67,7 @@ const FooterSection = () => {
               data-aos-offset="-100"
               data-aos="zoom-in-down"
               target="__blank"
-              href="https://t.me/cardanogptcommunity"
+              href="https://t.me/collatfinance"
             >
               {" "}
               <BiLogoTelegram />
@@ -76,7 +76,7 @@ const FooterSection = () => {
               data-aos-offset="-100"
               data-aos="zoom-in-down"
               target="__blank"
-              href="https://discord.gg/7mAMbRg7VR"
+              href="https://discord.gg/QrtvFgGn7r"
             >
               {" "}
               <FaDiscord />
@@ -85,7 +85,7 @@ const FooterSection = () => {
               data-aos-offset="-100"
               data-aos="zoom-in-down"
               target="__blank"
-              href="https://medium.com/@cardanogpt"
+              href="https://discord.gg/QrtvFgGn7r"
             >
               {" "}
               <BsMedium />{" "}

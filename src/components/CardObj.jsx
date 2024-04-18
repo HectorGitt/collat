@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { device } from "../breakpoint";
 
 const CardObj = ({ title, text, icon, dataAos }) => {
   return (
@@ -13,8 +14,8 @@ const CardObj = ({ title, text, icon, dataAos }) => {
 const Card = styled.div`
   display: flex;
   flex-direction: column;
-  width: 350px;
-  max-width: 20%;
+  min-width: 150px;
+  width: 100%;
   margin: 1rem;
   padding: 1rem;
   border-radius: 10px;
@@ -38,6 +39,15 @@ const Card = styled.div`
     height: 3rem;
     border-radius: 50%;
     color: #00ffa7;
+  }
+  @media screen and (${device.md}) {
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    .icon {
+      align-self: center;
+    }
   }
 `;
 
