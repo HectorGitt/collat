@@ -5,12 +5,12 @@ import line from "../assets/images/line.png";
 
 const Hanger = ({ title, value }) => {
   return (
-    <HangerCont>
+    <HangerCont data-aos="zoom-in-up">
       <h6>{title}</h6>
       <div className="hanger-foot">
         <p>{value}</p>
-        <img className="line" src={line} alt="" />
-        <img className="coin" src={coin} alt="" />
+        <img data-aos="zoom-in-up" className="line" src={line} alt="" />
+        <img data-aos="flip-left" className="coin" src={coin} alt="" />
       </div>
     </HangerCont>
   );
