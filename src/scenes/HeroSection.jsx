@@ -54,7 +54,6 @@ const Hero = styled.div`
     padding: 0 10%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 70%;
     max-width: 1000px;
@@ -63,13 +62,28 @@ const Hero = styled.div`
     h2 {
       font-size: 4rem;
       max-width: 30rem;
+      animation: float 2s linear infinite;
+      @keyframes float {
+        0% {
+          text-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+          transform: translatey(0px);
+        }
+        50% {
+          text-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+          transform: translatey(-20px);
+        }
+        100% {
+          text-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+          transform: translatey(0px);
+        }
+      }
     }
     p {
       font-size: 1rem;
       color: #ffffffb1;
       text-align: center;
       margin: 1rem 0;
-      width: 20rem;
+      max-width: 30rem;
     }
     .hero-actions {
       display: flex;
@@ -79,22 +93,36 @@ const Hero = styled.div`
   }
   img {
     position: absolute;
+    @keyframes floatimg {
+      0% {
+        transform: translateY(0px) scale(1);
+      }
+      50% {
+        transform: translateY(20px) scale(0.9);
+      }
+      100% {
+        transform: translateY(0px) scale(1);
+      }
+    }
   }
   .first {
     top: 30%;
     left: 10%;
     z-index: -1;
     width: 15rem;
+    animation: floatimg 6s linear infinite;
   }
   .second {
     top: 0;
     right: 10%;
     z-index: -2;
+    animation: floatimg 4s linear infinite;
   }
   .third {
     bottom: 0;
     right: 10%;
     z-index: -3;
+    animation: floatimg 5s linear infinite;
   }
 `;
 
