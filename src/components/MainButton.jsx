@@ -30,13 +30,37 @@ const Button = styled.button`
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   font-weight: 700;
+  animation: wiggle 2s linear infinite;
+  @keyframes wiggle {
+    0%,
+    7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%,
+    100% {
+      transform: rotateZ(0);
+    }
+  }
   &.primary {
     background-color: #fffcf8;
     color: #000;
     &:hover {
       background-color: #d8d8d8;
-      /* border: 3px solid white; */
-      outline: 3px solid #4287f5;
     }
   }
   &.secondary {
