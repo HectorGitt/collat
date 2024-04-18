@@ -139,12 +139,7 @@ const NavBar = styled.nav`
     align-items: center;
     list-style: none;
     border-radius: 2rem;
-    border: 1px solid #fffcf833;
-    padding: 0.4rem 0.8rem;
-    background: #fffcf80d;
-    color: white;
-    min-width: 40rem;
-    width: 50%;
+
     gap: 1rem;
     li.active {
       background: #fffcf8;
@@ -158,6 +153,12 @@ const NavBar = styled.nav`
   }
   ul.navlist-pc {
     font-size: 0.7rem;
+    border: 1px solid #fffcf833;
+    padding: 0.4rem 0.8rem;
+    background: #fffcf80d;
+    color: white;
+    min-width: 40rem;
+    width: 50%;
   }
   .navlist-mobile {
     position: fixed;
@@ -184,9 +185,8 @@ const NavBar = styled.nav`
       cursor: pointer;
     }
     .action-button {
-      display: inline-block;
-      width: 70%;
-      text-align: center;
+      justify-content: center;
+      width: 100%;
     }
   }
   .navlist {
