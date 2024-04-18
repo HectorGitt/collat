@@ -4,8 +4,8 @@ import { BiPlusCircle, BiMinusCircle } from "react-icons/bi";
 
 const Wrapper = styled.div`
   margin-top: 1rem;
-  width: 60%;
-  min-width: 500px;
+  width: 100%;
+  max-width: 700px;
 `;
 
 const ItemWithChevron = ({ header, ...rest }) => (
