@@ -6,14 +6,14 @@ const JoinSection = () => {
   return (
     <Join>
       <div>
-        <h2>Join Our Team</h2>
-        <p>
+        <h2 data-aos="zoom-in-up">Join Our Team</h2>
+        <p data-aos="zoom-in-up">
           We are seeking individuals with a strong understanding of the Solana
           blockchain technology and are passionate about developing
           decentralized applications.
         </p>
-        <p>Interested In Becoming a part of our team?</p>
-        <MainButton text="Apply Here" />
+        <p data-aos="zoom-in-up">Interested In Becoming a part of our team?</p>
+        <MainButton text="Apply Here" dataAos="zoom-in-up" />
       </div>
     </Join>
   );

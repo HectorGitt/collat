@@ -1,9 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
-const Paper = ({ icon, title, text, className, colorCode }) => {
+const Paper = ({ icon, title, text, className, colorCode, dataAos }) => {
   return (
-    <PaperCont className={className} style={{ background: `${colorCode}` }}>
+    <PaperCont
+      className={className}
+      style={{ background: `${colorCode}` }}
+      data-aos={dataAos}
+    >
       {icon && <img src={icon} alt="" />}
       <h3>{title}</h3>
       <p>{text}</p>

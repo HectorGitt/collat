@@ -18,10 +18,10 @@ const Nav = () => {
   };
   return (
     <NavBar>
-      <a href="/">
+      <a href="/" data-aos="zoom-in-right">
         <img alt="CardanoGPT logo" src={logo} />
       </a>
-      <ul className="navlist-pc">
+      <ul className="navlist-pc" data-aos="zoom-in-down">
         <li className="active">
           <a href="#home">Home</a>
         </li>
@@ -51,6 +51,7 @@ const Nav = () => {
         text="Join Discord"
         secondary
         icon={<FaDiscord />}
+        dataAos="zoom-in-left"
       />
 
       <CgMenu

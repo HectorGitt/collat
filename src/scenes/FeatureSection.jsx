@@ -8,8 +8,8 @@ const FeatureSection = () => {
   return (
     <Features>
       <div>
-        <HeadingPill text="Our Features" />
-        <h2>
+        <HeadingPill text="Our Features" dataAos="zoom-in-up" />
+        <h2 data-aos="zoom-in-up">
           The future of <span>Tokenized RWA</span> in one place
         </h2>
         <div className="group1">
@@ -18,12 +18,14 @@ const FeatureSection = () => {
             title="Unmatched Security & Clarity"
             text="Every transaction is fortified with blockchain technology, offering unmatched security and complete transparency."
             colorCode="#1F004724"
+            dataAos="fade-right"
           />
           <Paper
             className="first"
             title="Effortless Accessibility"
             text="Secure loans effortlessly from anywhere, without the need for a physical branch visit. Experience convenience right from your home."
             colorCode="#1F004724"
+            dataAos="fade-left"
           />
         </div>
         <div className="group2">
@@ -32,6 +34,7 @@ const FeatureSection = () => {
             title="Optimized Fairness & Adaptability"
             text="Enjoy highly competitive rates and adaptable loan terms, backed by AI-driven valuations for precision and fairness."
             colorCode="#1F004724"
+            dataAos="fade-up"
           />
         </div>
       </div>

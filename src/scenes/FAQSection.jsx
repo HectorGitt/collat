@@ -7,7 +7,7 @@ import grid from "../assets/images/grid.svg";
 const FAQSection = () => {
   return (
     <FAQCont>
-      <h2>FAQS</h2>
+      <h2 data-aos="zoom-in-up">FAQS</h2>
       <FAQ />
       <img className="background" src={unionImg2} alt="" />
       <img className="grid" src={grid} alt="" />

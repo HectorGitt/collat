@@ -12,27 +12,33 @@ const FooterSection = () => {
       <div className="nav-content">
         <div>
           <nav>
-            <img className="logo" src={logo} alt="logo" />
+            <img
+              className="logo"
+              src={logo}
+              alt="logo"
+              data-aos="zoom-in-right"
+              data-aos-offset="0"
+            />
             <ul>
-              <li>
+              <li data-aos="zoom-in-up" data-aos-offset="0">
                 <a target="__blank" href="/learn">
                   {" "}
                   Blog
                 </a>
               </li>
-              <li>
+              <li data-aos="zoom-in-up" data-aos-offset="0">
                 <a target="__blank" href="/docs">
                   {" "}
                   Contact
                 </a>
               </li>
-              <li>
+              <li data-aos="zoom-in-up" data-aos-offset="0">
                 <a target="__blank" href="/disclaimer">
                   {" "}
                   Privacy Policy
                 </a>
               </li>
-              <li>
+              <li data-aos="zoom-in-up" data-aos-offset="0">
                 <a target="__blank" href="/blog">
                   {" "}
                   Terms of Service
@@ -41,24 +47,46 @@ const FooterSection = () => {
             </ul>
           </nav>
         </div>
-        <hr />
+        <hr data-aos="fade-up" data-aos-offset="0" />
         <div className="copy-section">
           {/*copyright*/}
-          <p>&copy; 2024 Collat Finance. All Rights Reserved</p>
+          <p data-aos-offset="-100" data-aos="zoom-in-down">
+            &copy; 2024 Collat Finance. All Rights Reserved
+          </p>
           <div className="icons">
-            <a target="__blank" href="https://twitter.com/replyada">
+            <a
+              data-aos-offset="-100"
+              data-aos="zoom-in-down"
+              target="__blank"
+              href="https://twitter.com/replyada"
+            >
               {" "}
               <FaTwitter />
             </a>
-            <a target="__blank" href="https://t.me/cardanogptcommunity">
+            <a
+              data-aos-offset="-100"
+              data-aos="zoom-in-down"
+              target="__blank"
+              href="https://t.me/cardanogptcommunity"
+            >
               {" "}
               <BiLogoTelegram />
             </a>
-            <a target="__blank" href="https://discord.gg/7mAMbRg7VR">
+            <a
+              data-aos-offset="-100"
+              data-aos="zoom-in-down"
+              target="__blank"
+              href="https://discord.gg/7mAMbRg7VR"
+            >
               {" "}
               <FaDiscord />
             </a>
-            <a target="__blank" href="https://medium.com/@cardanogpt">
+            <a
+              data-aos-offset="-100"
+              data-aos="zoom-in-down"
+              target="__blank"
+              href="https://medium.com/@cardanogpt"
+            >
               {" "}
               <BsMedium />{" "}
             </a>

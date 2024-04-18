@@ -6,17 +6,17 @@ const AboutSection = () => {
   return (
     <About id="about">
       <div>
-        <h2 className="main">
+        <h2 className="main" data-aos="fade-up">
           Unique decentralized RWA backed private credit lending on Solana
         </h2>
-        <p>
+        <p data-aos="fade-right">
           Collat Finance is a decentralized private credit lending service with
           a unique on-chain and off-chain CeDeFi architecture where individuals
           can access blockchain based loans with their tangible real world
           assets as collateral.
         </p>
 
-        <h2 className="mission">
+        <h2 className="mission" data-aos="fade-left">
           <span>Our mission is simple;</span> to democratize access to financial
           services by making lending and borrowing as accessible and
           straightforward as possible.

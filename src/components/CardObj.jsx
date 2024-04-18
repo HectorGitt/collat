@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-const CardObj = ({ title, text, icon }) => {
+const CardObj = ({ title, text, icon, dataAos }) => {
   return (
-    <Card>
+    <Card data-aos={dataAos}>
       <div className="icon">{icon}</div>
       <h3>{title}</h3>
       <p>{text}</p>

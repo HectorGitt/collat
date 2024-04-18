@@ -10,20 +10,29 @@ const HeroSection = () => {
   return (
     <Hero>
       <div>
-        <h2>
+        <h2 data-aos="fade-up">
           Revolutionize your <span>financial flexibility</span>
         </h2>
-        <p>
+        <p data-aos="fade-up" data-aos-offset="-100" data-aos-delay="500">
           Collat Finance is an on-chain lending platform backed by tokenzied RWA
           collateral built on the Solana Blockchain.
         </p>
         <div className="hero-actions">
-          <MainButton text="Learn More" to="/buy" />
+          <MainButton
+            text="Learn More"
+            to="/buy"
+            dataAos="fade-right"
+            dataAosDelay="1000"
+            dataAosOffset="0"
+          />
           <MainButton
             text="Join Telegram"
             to="/discord"
             secondary
             icon={<FaTelegram size={"1.2rem"} />}
+            dataAos="fade-left"
+            dataAosDelay="1000"
+            dataAosOffset="0"
           />
         </div>
       </div>

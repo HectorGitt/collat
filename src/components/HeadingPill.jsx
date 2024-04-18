@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-const HeadingPill = ({ text }) => {
-  return <Pill>{text}</Pill>;
+const HeadingPill = ({ text, dataAos }) => {
+  return <Pill data-aos={dataAos}>{text}</Pill>;
 };
 
 const Pill = styled.h1`

@@ -7,6 +7,9 @@ const MainButton = (props) => {
       to={props.to}
       target={props.target ? "__blank" : ""}
       className={`action-button ${props.secondary ? "secondary" : "primary"} `}
+      data-aos={props.dataAos}
+      data-aos-delay={props.dataAosDelay}
+      data-aos-offset={props.dataAosOffset}
     >
       {props.text}
       {props.icon}

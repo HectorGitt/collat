@@ -5,9 +5,9 @@ import developer from "../assets/images/developer.png";
 import { BiLogoLinkedin } from "react-icons/bi";
 import HeadingPill from "../components/HeadingPill";
 
-const ProfileCard = ({ image, name, role, icon }) => {
+const ProfileCard = ({ image, name, role, icon, dataAos }) => {
   return (
-    <Profile>
+    <Profile data-aos={dataAos}>
       <img src={image} alt="" />
       <h3>{name}</h3>
       <p>{role}</p>
@@ -50,8 +50,8 @@ const Profile = styled.div`
 const TeamSection = () => {
   return (
     <Team id="team">
-      <HeadingPill text="Our Team" />
-      <h2>
+      <HeadingPill text="Our Team" dataAos="zoom-in-up" />
+      <h2 data-aos="zoom-in-up">
         Meet the super <span>team</span>
       </h2>
       <div className="cards">
@@ -59,11 +59,13 @@ const TeamSection = () => {
           image={designer}
           name={"Ines Rodriguez Piola"}
           role={"Product Designer"}
+          dataAos="fade-right"
         />
         <ProfileCard
           image={developer}
           name={"Igor Stojanovic"}
           role={"Smart Contract Developer"}
+          dataAos="fade-left"
         />
       </div>
     </Team>

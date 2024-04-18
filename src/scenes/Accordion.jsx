@@ -81,7 +81,7 @@ const AccordionItem = styled(ItemWithChevron)`
 
 export default function FAQ() {
   return (
-    <Wrapper>
+    <Wrapper data-aos="zoom-in-up">
       {/* `transitionTimeout` prop should be equal to the transition duration in CSS */}
       <Accordion transition transitionTimeout={250}>
         <AccordionItem header="What is Collat.Finance?" initialEntered>

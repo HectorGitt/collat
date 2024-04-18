@@ -8,9 +8,9 @@ import HeadingPill from "../components/HeadingPill";
 const COLToken = () => {
   return (
     <COLCont id="col">
-      <HeadingPill text="COL tokens" />
+      <HeadingPill text="COL tokens" dataAos="fade-up" />
       <FlexSection id="about" title="About Us" imgSrc={coins} imgAlt="about us">
-        <h2>
+        <h2 data-aos="fade-up">
           Decentralized utility token for all
           <br />
           {/* <span className="waivy">Cardano</span> */}
@@ -27,33 +27,33 @@ const COLToken = () => {
           their COL tokens to earn more
         </p>
       </FlexSection>
-      <ul className="token-details">
-        <li>
+      <ul className="token-details" data-aos="fade-up">
+        <li data-aos="fade-up">
           <h6>Token Name</h6>
           <p>Collat Finance</p>
         </li>
-        <li>
+        <li data-aos="fade-up">
           <h6>Blockchain</h6>
           <p>Solana</p>
         </li>
-        <li>
+        <li data-aos="fade-up">
           <h6>Total Supply</h6>
           <p>50,000,000</p>
         </li>
-        <li>
+        <li data-aos="fade-up">
           <h6>Token Symbol</h6>
           <p>$COL</p>
         </li>
-        <li>
+        <li data-aos="fade-up">
           <h6>Decimal</h6>
           <p>5</p>
         </li>
-        <li>
+        <li data-aos="fade-up">
           <h6>Contact Address</h6>
           <p>TBA</p>
         </li>
       </ul>
-      <div className="hanger-list">
+      <div className="hanger-list" data-aos="zoom-in-up">
         <Hanger title="Team & Advisors" value="14%" />
         <Hanger title="Presale" value="50%" />
         <Hanger title="Liquidity / Exchange Listings" value="10%" />

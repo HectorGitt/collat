@@ -11,8 +11,8 @@ const ServiceSection = () => {
   return (
     <Services>
       <div>
-        <HeadingPill text="Collat.Finance Services" />
-        <h2>
+        <HeadingPill text="Collat.Finance Services" dataAos="zoom-in-up" />
+        <h2 data-aos="zoom-in-up">
           Secure, blockchain powered private credit lending services backed by
           <span> Tokenized RWA</span>
         </h2>
@@ -21,16 +21,19 @@ const ServiceSection = () => {
             icon={hand}
             title="Digital Pawn Loans"
             text="Quick, blockchain-enabled loans against your valuable assets."
+            dataAos="zoom-in-right"
           />
           <Paper
             icon={coins}
             title="Asset Tokenization"
             text="Convert your physical valuables into digital tokens for ease of transaction and investment."
+            dataAos="zoom-in-up"
           />
           <Paper
             icon={package_icon}
             title="Item Sales"
             text="A platform to sell your items directly for immediate liquidity."
+            dataAos="zoom-in-left"
           />
         </div>
       </div>
