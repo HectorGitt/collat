@@ -133,6 +133,9 @@ const Hero = styled.div`
     & div > h1 {
       font-size: 2.5rem;
     }
+    .first {
+      display: none;
+    }
   }
 `;
 
