@@ -17,7 +17,7 @@ const FooterSection = () => {
               src={logo}
               alt="logo"
               data-aos="zoom-in-right"
-              data-aos-offset="0"
+              data-aos-offset="-200"
             />
             <ul>
               <li data-aos="zoom-in-up" data-aos-offset="0">
@@ -50,7 +50,9 @@ const FooterSection = () => {
         <hr data-aos="fade-up" data-aos-offset="0" />
         <div className="copy-section">
           {/*copyright*/}
-          <p>&copy; 2024 Collat Finance. All Rights Reserved</p>
+          <p data-aos="zoom-in-up" data-aos-offset="-200">
+            &copy; 2024 Collat Finance. All Rights Reserved
+          </p>
           <div className="icons">
             <a target="__blank" href="https://twitter.com/CollatFinance">
               {" "}
