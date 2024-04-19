@@ -117,7 +117,7 @@ const COLCont = styled.div`
       }
     }
     .hanger-list {
-      flex-direction: column;
+      flex-wrap: wrap;
       align-items: center;
 
       & > div {
