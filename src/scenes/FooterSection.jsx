@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { device } from "../breakpoint";
-import { FaTwitter, FaDiscord } from "react-icons/fa";
-import { BsMedium } from "react-icons/bs";
+import { FaDiscord } from "react-icons/fa";
+import { BsMedium, BsTwitterX } from "react-icons/bs";
 import logo from "../assets/images/logo.png";
 import { BiLogoTelegram } from "react-icons/bi";
 
@@ -54,7 +54,7 @@ const FooterSection = () => {
           <div className="icons">
             <a target="__blank" href="https://twitter.com/CollatFinance">
               {" "}
-              <FaTwitter />
+              <BsTwitterX />
             </a>
             <a target="__blank" href="https://t.me/collatfinance">
               {" "}
