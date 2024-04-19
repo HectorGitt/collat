@@ -26,7 +26,7 @@ const FeatureSection = () => {
             title="Effortless Accessibility"
             text="Secure loans effortlessly from anywhere, without the need for a physical branch visit. Experience convenience right from your home."
             colorCode="#1F004724"
-            dataAos="fade-left"
+            dataAos="fade-up"
           />
         </div>
         <div className="group2">

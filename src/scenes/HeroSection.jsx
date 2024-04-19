@@ -31,7 +31,7 @@ const HeroSection = () => {
             to="https://t.me/collatfinance"
             secondary
             icon={<FaTelegram size={"1.2rem"} />}
-            dataAos="fade-left"
+            dataAos="fade-up"
             dataAosDelay="1000"
             dataAosOffset="0"
           />

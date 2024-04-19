@@ -51,7 +51,7 @@ const Nav = () => {
         text="Join Discord"
         secondary
         icon={<FaDiscord />}
-        dataAos="zoom-in-left"
+        dataAos="zoom-in-up"
       />
 
       <CgMenu

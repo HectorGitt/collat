@@ -17,7 +17,7 @@ const AboutSection = () => {
           assets as collateral.
         </p>
 
-        <h2 className="mission" data-aos="fade-left">
+        <h2 className="mission" data-aos="fade-up">
           <span>Our mission is simple;</span> to democratize access to financial
           services by making lending and borrowing as accessible and
           straightforward as possible.

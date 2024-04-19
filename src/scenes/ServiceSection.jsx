@@ -34,7 +34,7 @@ const ServiceSection = () => {
             icon={package_icon}
             title="Item Sales"
             text="A platform to sell your items directly for immediate liquidity."
-            dataAos="zoom-in-left"
+            dataAos="zoom-in-up"
           />
         </div>
       </div>

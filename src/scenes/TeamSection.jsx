@@ -65,7 +65,7 @@ const TeamSection = () => {
           image={developer}
           name={"Igor Stojanovic"}
           role={"Smart Contract Developer"}
-          dataAos="fade-left"
+          dataAos="fade-up"
         />
       </div>
     </Team>

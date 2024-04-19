@@ -14,9 +14,6 @@ body {
   scroll-behavior: smooth;
 }
 
-body > div {
-  overflow-x: hidden;
-}
 li {
   cursor: pointer;
 }

@@ -37,7 +37,7 @@ const HowSection = () => {
             title="Step 4: Quick Funding"
             text="Funds disbursed to your account once offer is filled. Experience swift access to liquidity, often within hours."
             icon={<FaMoneyCheck />}
-            dataAos="fade-left"
+            dataAos="fade-up"
           />
         </div>
       </div>

@@ -6,12 +6,12 @@ import { device } from "../breakpoint";
 const FlexSection = ({ id, text, imgSrc, imgAlt, alternate, children }) => {
   return (
     <Flex id={id} className={alternate ? "alternate" : ""}>
-      <div data-aos={alternate ? "fade-left" : "fade-right"}>
+      <div data-aos={alternate ? "fade-up" : "fade-right"}>
         {children}
         <p>{text}</p>
       </div>
       <div
-        data-aos={alternate ? "fade-right" : "fade-left"}
+        data-aos={alternate ? "fade-right" : "fade-up"}
         className="image-cont"
       >
         <img className="image" src={imgSrc} alt={imgAlt} />
