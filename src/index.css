@@ -8,18 +8,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background: #1f0047;
   transition: all 0.5s ease-in-out;
   color: white;
   width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 html {
-  width: 100%;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 li {
   cursor: pointer;
