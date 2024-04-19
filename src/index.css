@@ -18,7 +18,6 @@ body {
   scroll-behavior: smooth;
 }
 html {
-  width: 100vw;
   overflow-x: hidden;
 }
 li {
