@@ -67,6 +67,12 @@ const TeamSection = () => {
           role={"Smart Contract Developer"}
           dataAos="fade-up"
         />
+        <ProfileCard
+          image={product}
+          name={"Mit Sachani"}
+          role={"Product Manager"}
+          dataAos="fade-up"
+        />
       </div>
     </Team>
   );
