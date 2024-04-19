@@ -127,6 +127,9 @@ const Hero = styled.div`
     animation: floatimg 5s linear infinite;
   }
   @media screen and (${device.md}) {
+    & > div {
+      justify-content: center;
+    }
     & div > h1 {
       font-size: 2.5rem;
     }

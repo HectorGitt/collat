@@ -79,7 +79,8 @@ const Team = styled.div`
   .cards {
     display: flex;
     width: 80%;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2rem;
     align-items: start;
     margin-top: 2rem;
     flex-wrap: wrap;

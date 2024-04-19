@@ -61,10 +61,11 @@ const How = styled.div`
     }
     .cards {
       display: flex;
-      gap: 2rem;
+      gap: 1rem;
       justify-content: center;
       margin: 2rem 0;
       text-align: left;
+      width: 80%;
     }
   }
   @media screen and (${device.md}) {
