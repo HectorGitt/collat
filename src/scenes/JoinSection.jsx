@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import MainButton from "../components/MainButton";
+import { device } from "../breakpoint";
 
 const JoinSection = () => {
   return (
@@ -45,6 +46,14 @@ const Join = styled.div`
   }
   .interest {
     font-weight: 600;
+  }
+  @media screen and (${device.md}) {
+    & > div {
+      width: 80%;
+    }
+    p {
+      width: 100%;
+    }
   }
 `;
 
