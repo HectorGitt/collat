@@ -45,6 +45,9 @@ const Card = styled.div`
     max-width: 300px;
     width: 100%;
     text-align: center;
+    h3 {
+      text-align: center;
+    }
     .icon {
       align-self: center;
     }
