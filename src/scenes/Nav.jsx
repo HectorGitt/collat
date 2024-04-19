@@ -82,16 +82,16 @@ const Nav = () => {
             <a href="#how it Works">How it Works</a>
           </li>
           <li onClick={closeNav}>
-            <a href="col">COL TOken</a>
+            <a href="#col">COL TOken</a>
           </li>
           <li onClick={closeNav}>
-            <a href="litepaper">LitePaper</a>
+            <a href="#litepaper">LitePaper</a>
           </li>
           <li onClick={closeNav}>
-            <a href="community">Community</a>
+            <a href="#community">Community</a>
           </li>
           <li onClick={closeNav}>
-            <a href="presale">Presale</a>
+            <a href="#presale">Presale</a>
           </li>
         </ul>
         {/* <Popup trigger={<button className='modal-button'>Buy CGI</button>} position="right center" modal>
