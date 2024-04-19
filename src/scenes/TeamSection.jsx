@@ -76,6 +76,7 @@ const Team = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   .cards {
     display: flex;
     width: 80%;

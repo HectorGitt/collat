@@ -69,6 +69,7 @@ const COLCont = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
   h1 {
     align-self: self-start;
     margin-left: 15%;
