@@ -52,35 +52,19 @@ const FooterSection = () => {
           {/*copyright*/}
           <p>&copy; 2024 Collat Finance. All Rights Reserved</p>
           <div className="icons">
-            <a
-              data-aos="zoom-in-down"
-              target="__blank"
-              href="https://twitter.com/CollatFinance"
-            >
+            <a target="__blank" href="https://twitter.com/CollatFinance">
               {" "}
               <FaTwitter />
             </a>
-            <a
-              data-aos="zoom-in-down"
-              target="__blank"
-              href="https://t.me/collatfinance"
-            >
+            <a target="__blank" href="https://t.me/collatfinance">
               {" "}
               <BiLogoTelegram />
             </a>
-            <a
-              data-aos="zoom-in-down"
-              target="__blank"
-              href="https://discord.gg/QrtvFgGn7r"
-            >
+            <a target="__blank" href="https://discord.gg/QrtvFgGn7r">
               {" "}
               <FaDiscord />
             </a>
-            <a
-              data-aos="zoom-in-down"
-              target="__blank"
-              href="https://discord.gg/QrtvFgGn7r"
-            >
+            <a target="__blank" href="https://discord.gg/QrtvFgGn7r">
               {" "}
               <BsMedium />{" "}
             </a>
