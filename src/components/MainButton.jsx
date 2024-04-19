@@ -4,7 +4,7 @@ import { styled } from "styled-components";
 const MainButton = (props) => {
   return (
     <Button
-      to={props.to}
+      href={props.to}
       target={props.target ? "__blank" : ""}
       className={`action-button ${props.secondary ? "secondary" : "primary"} `}
       data-aos={props.dataAos}
