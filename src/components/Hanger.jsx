@@ -38,8 +38,11 @@ const HangerCont = styled.div`
     justify-content: space-between;
     height: 83%;
   }
+  p {
+    font-size: 1.5rem;
+  }
   .coin {
-    width: 2.5rem;
+    width: 3rem;
   }
 `;
 

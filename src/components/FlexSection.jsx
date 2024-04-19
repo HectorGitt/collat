@@ -27,8 +27,10 @@ const Flex = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
+  width: 80%;
   position: relative;
+  align-self: center;
   & > div {
     display: flex;
     flex-direction: column;

@@ -71,9 +71,10 @@ const COLCont = styled.div`
   justify-content: center;
   h1 {
     align-self: self-start;
-    margin-left: 5%;
+    margin-left: 15%;
     @media screen and (${device.md}) {
       align-self: center;
+      margin-left: 0;
     }
   }
   .token-details {
@@ -96,7 +97,7 @@ const COLCont = styled.div`
   }
   .hanger-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 80%;
     align-self: center;
     flex-wrap: wrap;

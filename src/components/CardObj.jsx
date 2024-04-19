@@ -16,18 +16,18 @@ const Card = styled.div`
   flex-direction: column;
   min-width: 150px;
   width: 100%;
-  margin: 1rem;
-  padding: 1rem;
   border-radius: 10px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
   h3 {
     margin: 1rem 0;
     text-align: left;
     font-size: 1rem;
+    font-weight: 500;
   }
   p {
     color: #ffffffb1;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 400;
   }
   .icon {
     background: #fffcf81a;
