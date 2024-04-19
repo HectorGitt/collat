@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import designer from "../assets/images/designer.png";
 import developer from "../assets/images/developer.png";
+import product from "../assets/images/product.png";
 import { BiLogoLinkedin } from "react-icons/bi";
 import HeadingPill from "../components/HeadingPill";
 
