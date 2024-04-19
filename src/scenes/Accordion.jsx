@@ -6,6 +6,12 @@ const Wrapper = styled.div`
   margin-top: 1rem;
   width: 100%;
   max-width: 700px;
+  .szh-accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+  }
 `;
 
 const ItemWithChevron = ({ header, ...rest }) => (
@@ -29,6 +35,7 @@ const AccordionItem = styled(ItemWithChevron)`
   padding: 0.5rem 1rem;
   margin: 1rem 0;
   background: #1f004724;
+  width: 100%;
   .szh-accordion__item {
     &-btn {
       cursor: pointer;
