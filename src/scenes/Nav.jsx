@@ -47,7 +47,7 @@ const Nav = () => {
       <MainButton
         target
         className="modal-button"
-        to="/buy"
+        to="https://discord.gg/QrtvFgGn7r"
         text="Join Discord"
         secondary
         icon={<FaDiscord />}
@@ -97,7 +97,11 @@ const Nav = () => {
         {/* <Popup trigger={<button className='modal-button'>Buy CGI</button>} position="right center" modal>
             <div className='popup'>Coming Soon!!</div>
             </Popup> */}
-        <MainButton target to="/buy" text="Join Discord" />
+        <MainButton
+          target
+          to="https://discord.gg/QrtvFgGn7r"
+          text="Join Discord"
+        />
       </div>
     </NavBar>
   );
