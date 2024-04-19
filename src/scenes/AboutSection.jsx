@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import unionImg from "../assets/images/Union.svg";
+import { device } from "../breakpoint";
 
 const AboutSection = () => {
   return (
@@ -58,6 +59,11 @@ const About = styled.div`
     }
     .mission {
       margin: 2rem 0;
+    }
+  }
+  @media screen and (${device.md}) {
+    & > div {
+      width: 100%;
     }
   }
 `;
