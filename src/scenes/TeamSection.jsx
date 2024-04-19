@@ -23,7 +23,12 @@ const Profile = styled.div`
   border: 1px solid #fffcf833;
   border-radius: 2rem;
   padding: 1rem;
-  &:nth-last-of-type(1) {
+  width: 100%;
+  max-width: 300px;
+  img {
+    width: 100%;
+  }
+  &:nth-of-type(2) {
     margin-top: 2rem;
   }
   h3 {
