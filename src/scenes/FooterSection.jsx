@@ -32,13 +32,13 @@ const FooterSection = () => {
                   Contact
                 </a>
               </li>
-              <li data-aos="zoom-in-up" data-aos-offset="0">
+              <li data-aos="zoom-in-up" data-aos-offset="-100">
                 <a target="__blank" href="/disclaimer">
                   {" "}
                   Privacy Policy
                 </a>
               </li>
-              <li data-aos="zoom-in-up" data-aos-offset="0">
+              <li data-aos="zoom-in-up" data-aos-offset="-200">
                 <a target="__blank" href="/blog">
                   {" "}
                   Terms of Service
@@ -47,7 +47,7 @@ const FooterSection = () => {
             </ul>
           </nav>
         </div>
-        <hr data-aos="fade-up" data-aos-offset="0" />
+        <hr data-aos="fade-up" data-aos-offset="-200" />
         <div className="copy-section">
           {/*copyright*/}
           <p>&copy; 2024 Collat Finance. All Rights Reserved</p>
