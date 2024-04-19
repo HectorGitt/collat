@@ -19,7 +19,7 @@ const MainButton = (props) => {
 
 export default MainButton;
 
-const Button = styled.button`
+const Button = styled.a`
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -29,7 +29,8 @@ const Button = styled.button`
   padding: 13px 24px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 0.8rem;
   animation: wiggle 2s linear infinite;
   @keyframes wiggle {
     0%,
