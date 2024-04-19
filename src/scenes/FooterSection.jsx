@@ -147,16 +147,14 @@ const Footer = styled.footer`
     min-height: 50vh;
     nav,
     .copy-section {
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
     nav ul {
       width: 100%;
+      align-items: center;
     }
     .copy-section p {
       margin-top: 10%;
-    }
-    nav img {
-      align-self: self-start;
     }
     .icons {
       margin-top: 2rem;
