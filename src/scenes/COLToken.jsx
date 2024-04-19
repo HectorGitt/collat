@@ -105,9 +105,10 @@ const COLCont = styled.div`
   }
   @media screen and (${device.md}) {
     .token-details {
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
       align-items: center;
-      width: fit-content;
+      width: 80%;
       padding: 2rem;
       text-align: center;
 
