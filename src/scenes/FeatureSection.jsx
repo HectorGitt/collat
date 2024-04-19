@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Paper from "../components/Paper";
 import background from "../assets/images/Layer_1.png";
 import HeadingPill from "../components/HeadingPill";
+import { device } from "../breakpoint";
 
 const FeatureSection = () => {
   return (
@@ -103,6 +104,11 @@ const Features = styled.div`
       gap: 2rem;
       width: 80%;
       height: 40rem;
+    }
+  }
+  @media screen and (${device.md}) {
+    & > div .group2 {
+      margin: 0;
     }
   }
 `;
