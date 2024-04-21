@@ -7,6 +7,10 @@ import { BsClipboard2DataFill } from "react-icons/bs";
 import { FaDatabase } from "react-icons/fa";
 import { FaMoneyCheck } from "react-icons/fa6";
 import { device } from "../breakpoint";
+import search from "../assets/images/search.png";
+import offer from "../assets/images/offer.png";
+import data from "../assets/images/data.png";
+import fund from "../assets/images/fund.png";
 
 const HowSection = () => {
   return (
@@ -18,25 +22,25 @@ const HowSection = () => {
           <CardObj
             title="Step 1: Item Evaluation"
             text="Submit item details to a decentralized Pawn Node. AI assesses value quickly, ensuring fair, transparent valuation."
-            icon={<FaClipboardList />}
+            icon={search}
             dataAos="fade-right"
           />
           <CardObj
             title="Step 2: Loan Offer"
             text="Receive immediate, clear loan offer after AI evaluation. Offer includes interest rates, loan duration, and repayment conditions."
-            icon={<BsClipboard2DataFill />}
+            icon={offer}
             dataAos="zoom-in-up"
           />
           <CardObj
             title="Step 3: Collateral Tokenization"
             text="Accepted offers lead to collateral being tokenized on Solana blockchain. Tokenized units are listed on the marketplace for contributor purchase."
-            icon={<FaDatabase />}
+            icon={data}
             dataAos="zoom-in-up"
           />
           <CardObj
             title="Step 4: Quick Funding"
             text="Funds disbursed to your account once offer is filled. Experience swift access to liquidity, often within hours."
-            icon={<FaMoneyCheck />}
+            icon={fund}
             dataAos="fade-up"
           />
         </div>
