@@ -5,6 +5,7 @@ import developer from "../assets/images/developer.png";
 import product from "../assets/images/product.png";
 import { BiLogoLinkedin } from "react-icons/bi";
 import HeadingPill from "../components/HeadingPill";
+import line from "../assets/images/line.svg";
 
 const ProfileCard = ({ image, name, role, icon, dataAos }) => {
   return (
@@ -80,15 +81,24 @@ const TeamSection = () => {
           dataAos="fade-up"
         />
       </div>
+      <img src={line} className="lines" alt="" />
     </Team>
   );
 };
 
 const Team = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  z-index: 1;
+  .lines {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    z-index: -2;
+  }
   .cards {
     display: flex;
     width: 80%;
