@@ -5,19 +5,48 @@ import { device } from "../breakpoint";
 const CardObj = ({ title, text, icon, dataAos }) => {
   return (
     <Card data-aos={dataAos}>
-      <div className="icon">{icon}</div>
-      <h3>{title}</h3>
-      <p>{text}</p>
+      <div className="case">
+        <span></span>
+        <span className="line"></span>
+        <span></span>
+      </div>
+
+      <div className="content">
+        <div className="icon">
+          <img src={icon} alt="" />
+        </div>
+
+        <div>
+          <h3>{title}</h3>
+        </div>
+
+        <p>{text}</p>
+      </div>
     </Card>
   );
 };
 const Card = styled.div`
   display: flex;
-  flex-direction: column;
-  min-width: 150px;
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+
+  .case {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    height: 100%;
+  }
+  .line {
+    border-left: 3px solid #0cc91beb;
+    height: 1rem;
+    margin-top: 4.3rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  }
   h3 {
     margin: 1rem 0;
     text-align: left;
